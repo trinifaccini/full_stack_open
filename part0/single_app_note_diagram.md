@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -35,7 +35,5 @@ sequenceDiagram
     Note left of server: The server creates a new note object containing the user input and <br/> adds it to the array of notes.
     server-->>browser: HTTP 201 Created
     deactivate server
-    
-    
-    
-:::
+
+```
