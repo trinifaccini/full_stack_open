@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -26,4 +26,4 @@ sequenceDiagram
     deactivate server
 
     Note right of browser: This time the browser generates the HTML code for<br/>the existing notes by running the JavaScript code it got<br/>from the server. The code gets the notes from the server<br/>as JSON data and adds HTML elementsto display the notes<br/>on the page using the DOM-API
-:::
+```
